@@ -1,0 +1,6 @@
+soal_1/osboot/linux-6.1.1/
+soal_1/osboot/linux-6.1.1.tar.xz
+soal_1/osboot/*.gz
+soal_1/osboot/*.iso
+soal_1/osboot/bzImage
+soal_1/osboot/*.zip
