@@ -273,6 +273,134 @@ Setelah proses zip selesai, file build asli dihapus sehingga hanya tersisa file 
 ---
 ---
 
+### Urutan Demo
+
+#### 1. Menunjukkan Struktur Repository
+
+```bash
+tree -L 2
+```
+
+---
+
+#### 2. Menunjukkan Hasil Build
+
+```bash
+ls -lh osboot
+```
+
+---
+
+#### 3. Menunjukkan Script
+
+```bash
+cat kernel.sh
+cat single.sh
+cat multi.sh
+cat iso.sh
+cat qemu.sh
+cat backup.sh
+```
+
+---
+
+#### 4. Menjalankan Single User Mode
+
+```bash
+./qemu.sh --single
+```
+
+---
+
+#### 5. Menjalankan Command Dasar
+
+```bash
+pwd
+ls
+uname -a
+```
+
+---
+
+#### 6. Menguji Internet
+
+```bash
+ping 8.8.8.8
+```
+
+```bash
+wget example.com
+```
+
+---
+
+#### 7. Menguji Package Manager Party
+
+```bash
+party --help
+```
+
+atau
+
+```bash
+party --version
+```
+
+---
+
+#### 8. Menguji FUSE
+
+```bash
+fusermount3 --version
+```
+
+---
+
+#### 9. Menjalankan Multi User Mode
+
+```bash
+./qemu.sh --multi
+```
+
+Login menggunakan salah satu user:
+
+```text
+henn / henn123
+hann / hann123
+viii / viii123
+kids / kids123
+```
+
+---
+
+#### 10. Menampilkan Daftar User
+
+```bash
+cat /etc/passwd
+```
+
+---
+
+#### 11. Menjalankan ISO
+
+```bash
+./qemu.sh --all
+```
+
+---
+
+#### 12. Menunjukkan File Backup
+
+```bash
+ls -lh osboot/*.zip
+```
+
+atau
+
+```bash
+./backup.sh
+---
+
 ### Cara Menjalankan
 
 Sebelum menjalankan sistem operasi, pastikan seluruh dependency sudah terinstall seperti:
