@@ -399,6 +399,25 @@ atau
 
 ```bash
 ./backup.sh
+
+---
+
+### Menghentikan QEMU
+
+Jika QEMU masih berjalan dan ingin dihentikan, gunakan:
+
+```bash
+pkill qemu-system-x86_64
+```
+
+Untuk memastikan seluruh proses QEMU sudah berhenti:
+
+```bash
+ps aux | grep qemu
+```
+
+---
+
 ---
 
 ### Cara Menjalankan
