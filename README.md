@@ -14,7 +14,7 @@
 
 Pada soal ini praktikan diminta untuk membangun sebuah sistem operasi Linux sederhana menggunakan kernel Linux 6.1.1 yang dikompilasi sendiri. Sistem operasi dijalankan menggunakan QEMU dan memiliki dua mode operasi, yaitu Single User Mode dan Multi User Mode.
 
-Selain membuat kernel dan filesystem, praktikan juga diminta membuat ISO bootable yang berisi kedua mode tersebut, membuat script otomatisasi build, menyediakan koneksi internet di dalam sistem operasi, membuat package manager bernama `party`, serta melakukan instalasi FUSE sebagai bukti bahwa package manager dapat digunakan.
+Selain membuat kernel dan filesystem, juga diminta membuat ISO bootable yang berisi kedua mode tersebut, membuat script otomatisasi build, menyediakan koneksi internet di dalam sistem operasi, membuat package manager bernama `party`, serta melakukan instalasi FUSE sebagai bukti bahwa package manager dapat digunakan.
 
 Sistem terdiri dari enam script utama:
 
